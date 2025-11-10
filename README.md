@@ -18,7 +18,11 @@ You can also [download the latest release](https://github.com/ksnortum/scarlatti
 
 ### Two-sided printing
 
-The pieces are set up so that they can be printed on two sides of the paper, leaving an extra margin amount on the inside pages for binding. If you don't want this, open the file `global.ily`, find the `\paper` block (near the top) and set `two-sided = ##f`.
+The pieces are set up so that they can be printed on two sides of the paper, leaving an extra margin amount on the inside pages for binding. If you don't want this, open the file `globals.ily`, find the `\paper` block (near the top) and set `two-sided = ##f`.
+
+### Bar numbering
+
+If you want to print bar numbers over the first measure of every system, open the file `globals.ily` and comment out or remove the line `\omit BarNumber`.
 
 ## Thanks
 
