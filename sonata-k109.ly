@@ -9,11 +9,6 @@
   source = "https://s9.imslp.org/files/imglnks/usimg/b/bf/IMSLP626891-PMLP335375-Sonata_K._109_(as_L._138).pdf"
 }
 
-% TODO remove me
-\paper {
-  min-systems-per-page = 6
-}
-
 %
 % Positions and shapes
 %
